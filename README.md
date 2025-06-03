@@ -17,13 +17,6 @@
 pip install yashuashua_mcp_server
 ```
 
-### 从源码安装
-```bash
-git clone https://github.com/yourusername/yashuashua_mcp_server.git
-cd yashuashua_mcp_server
-pip install -e .
-```
-
 ## 在Trae中使用
 
 1. 安装包后，在Trae的MCP配置文件中添加以下配置：
@@ -52,29 +45,8 @@ pip install -e .
 
 ## 开发
 
-### 本地开发环境设置
 
-```bash
-# 克隆仓库
-git clone https://github.com/yourusername/yashuashua_mcp_server.git
-cd yashuashua_mcp_server
 
-# 安装开发依赖
-pip install -e ".[dev]"
-
-# 运行测试
-pytest
-```
-
-### 构建和发布
-
-```bash
-# 构建包
-python -m build
-
-# 发布到PyPI（需要先配置PyPI凭据）
-twine upload dist/*
-```
 
 ## 许可证
 
