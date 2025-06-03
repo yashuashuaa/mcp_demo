@@ -1,6 +1,6 @@
 """MCP Demo - A simple MCP server package."""
 
-__version__ = "0.1.4"
+__version__ = "0.2.0"
 __author__ = "yashuashua"
 __email__ = "734496997@qq.com"
 
