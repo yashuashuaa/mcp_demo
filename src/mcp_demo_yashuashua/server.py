@@ -133,8 +133,7 @@ async def handle_call_tool(name: str, arguments: dict) -> list[types.TextContent
 
 
 async def main():
-    """启动MCP服务器。"""
-    # 设置日志
+    """主函数，启动MCP服务器。"""
     logging.basicConfig(
         level=logging.INFO,
         format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
@@ -148,7 +147,7 @@ async def main():
             write_stream,
             InitializationOptions(
                 server_name="yashuashua-mcp-server",
-                server_version="0.2.1",
+                server_version="0.2.2",
                 capabilities=server.get_capabilities(
                     notification_options=NotificationOptions(),
                     experimental_capabilities={},
@@ -157,5 +156,10 @@ async def main():
         )
 
 
-if __name__ == "__main__":
+def main_sync():
+    """同步入口点，用于console_scripts。"""
     asyncio.run(main())
+
+
+if __name__ == "__main__":
+    main_sync()

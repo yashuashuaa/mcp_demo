@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "yashuashua_mcp_server"
-version = "0.2.1"
+version = "0.2.2"
 description = "A simple MCP (Model Context Protocol) server demo"
 readme = "README.md"
 requires-python = ">=3.8"
@@ -36,7 +36,7 @@ Repository = "https://github.com/yourusername/mcp-demo.git"
 Issues = "https://github.com/yourusername/mcp-demo/issues"
 
 [project.scripts]
-yashuashua-mcp-server = "mcp_demo_yashuashua.server:main"
+yashuashua-mcp-server = "mcp_demo_yashuashua.server:main_sync"
 
 [tool.setuptools.packages.find]
 where = ["src"]
