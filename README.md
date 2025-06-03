@@ -19,14 +19,14 @@ pip install yashuashua_mcp_server
 
 ## 在Trae中使用
 
-1. 安装包后，在Trae的MCP配置文件中添加以下配置：
+1. 在Trae的MCP配置文件中添加以下配置：（保持最新版）
 
 ```json
 {
   "mcpServers": {
     "yashuashua-mcp-server": {
       "command": "uvx",
-      "args": ["yashuashua_mcp_server"]
+      "args": ["--reinstall", "yashuashua-mcp-server"]
     }
   }
 }
