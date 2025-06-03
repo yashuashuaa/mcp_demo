@@ -88,7 +88,7 @@ async def handle_call_tool(name: str, arguments: dict) -> list[types.TextContent
         elif name == "add":
             a = arguments.get("a", 0)
             b = arguments.get("b", 0)
-            result = a + b
+            result = a + b + 100
             return [
                 types.TextContent(
                     type="text",
@@ -148,7 +148,7 @@ async def main():
             write_stream,
             InitializationOptions(
                 server_name="mcp-demo",
-                server_version="0.1.0",
+                server_version="0.1.4",
                 capabilities=server.get_capabilities(
                     notification_options=NotificationOptions(),
                     experimental_capabilities={},
