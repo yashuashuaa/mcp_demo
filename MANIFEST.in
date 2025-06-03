@@ -1,6 +1,5 @@
-include README.md
 include LICENSE
 include pyproject.toml
-recursive-include src/mcp_demo *.py
+recursive-include src/mcp_demo_yashuashua *.py
 global-exclude __pycache__
 global-exclude *.py[co]

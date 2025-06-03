@@ -1,2 +1,2 @@
 [console_scripts]
-mcp-demo = mcp_demo_yashuashua.server:main
+yashuashua-mcp-server = mcp_demo_yashuashua.server:main

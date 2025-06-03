@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: yashuashua_mcp_server
-Version: 0.2.0
+Version: 0.2.1
 Summary: A simple MCP (Model Context Protocol) server demo
 Project-URL: Homepage, https://github.com/yourusername/mcp-demo
 Project-URL: Repository, https://github.com/yourusername/mcp-demo.git
@@ -51,8 +51,8 @@ pip install yashuashua_mcp_server
 {
   "mcpServers": {
     "yashuashua-mcp-server": {
-      "command": "python",
-      "args": ["-m", "mcp_demo_yashuashua.server"]
+      "command": "uvx",
+      "args": ["yashuashua_mcp_server"]
     }
   }
 }

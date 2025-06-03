@@ -25,8 +25,8 @@ pip install yashuashua_mcp_server
 {
   "mcpServers": {
     "yashuashua-mcp-server": {
-      "command": "python",
-      "args": ["-m", "mcp_demo_yashuashua.server"]
+      "command": "uvx",
+      "args": ["yashuashua_mcp_server"]
     }
   }
 }
