@@ -1,10 +1,10 @@
-"""MCP Demo Server implementation."""
+"""MCP Demo Server implementation.make it fun """
 
 import asyncio
 import logging
 from mcp import types
 from mcp.server import Server
-from mcp.server.models import InitializationOptions
+from mcp.server.models import InitializationOptions 
 from mcp.server.stdio import stdio_server
 from mcp.server.lowlevel import NotificationOptions
 
